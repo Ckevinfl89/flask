@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+venv/
+
+# also ignore the __pycache__
+__pycache__/
+
+# ignore the .vscode (your personal VS Code settings)
+# .vscode/  # I am keeping this commented out so you can see how I configured the launch.json for debugger
+
+# hide our environment variables in .env
+.env
+
+# ignore any sqlite databases
+*.db
